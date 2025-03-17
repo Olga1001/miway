@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.331e8652.css",
+    "main.js": "/static/js/main.27e07cd6.js",
+    "static/media/krolik-pinterest-foni-37.png": "/static/media/krolik-pinterest-foni-37.d04fa12e02e453ae8d01.png",
+    "static/media/sprite.svg": "/static/media/sprite.b5cf9494f6c379138a7ddd932319c579.svg",
+    "static/media/no-image-svgrepo-com.svg": "/static/media/no-image-svgrepo-com.16124aa21c6a8180e9db80863f9b34e7.svg",
+    "index.html": "/index.html",
+    "main.331e8652.css.map": "/static/css/main.331e8652.css.map",
+    "main.27e07cd6.js.map": "/static/js/main.27e07cd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.331e8652.css",
+    "static/js/main.27e07cd6.js"
+  ]
+}
