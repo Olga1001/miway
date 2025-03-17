@@ -1,0 +1,14 @@
+{
+  "cart": {
+    "cart": {
+      "items": {},
+      "qty": 0,
+      "totals": {
+        "subtotal": 0,
+        "grand_total": 0,
+        "shipping": 0,
+        "discount": 0
+      }
+    }
+  }
+}

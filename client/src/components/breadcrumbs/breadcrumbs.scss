@@ -1,0 +1,43 @@
+@import '../../style/variables.scss';
+
+.breadcrumbs {
+    margin-bottom: 30px;
+    display: inline-block;
+    &__item {
+        float: left;
+        position: relative;
+        line-height: 22px;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            left: 0;
+            border-radius: 50;
+            width: 2px;
+            height: 2px;
+            background: #bfbfbf;
+        }
+        &:first-child .breadcrumbs__link {
+            padding-left: 0;
+            padding-right: 13px;
+        }
+        &:last-child a {
+            color: #191514;
+            padding: 0 10px;
+            font-size: 14px;
+            line-height: 1.2;
+            cursor: auto;
+        }
+    }
+    &__link {
+        color: #bfbfbf;
+        padding: 0 10px;
+        display: inline-block;
+        &::first-letter {
+            text-transform: capitalize;
+        }
+    }
+}

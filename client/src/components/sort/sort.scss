@@ -1,0 +1,15 @@
+.sorting-grid__item {
+    cursor: pointer;
+    padding: 6px 5px;
+    & svg {
+        opacity: 0.3;
+        width: 24px;
+        height: 24px;
+    }
+} 
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 700;
+}

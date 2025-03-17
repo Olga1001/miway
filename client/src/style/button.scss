@@ -1,0 +1,49 @@
+@import './variables';
+
+.btn {
+    margin-top: 20px;
+    background-color: $bgButtonDark;
+    color: #fff;
+    line-height: 40px;
+    font-size: 13px;
+    padding: 0 20px 0 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    &[disabled] {
+        opacity: 0.7;
+        cursor: no-drop;
+    }
+    &:hover {
+        background-color: #0fbeb2;
+    }
+    &-search {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 62px;
+        height: 100%;
+        & svg {
+            width: 16px;
+            height: 16px;
+            fill: #000;
+            transition: all 0.3s ease;
+        }
+    }
+    &-2 {
+        border: 1px solid rgba(25, 21, 20, 0.1);
+        padding: 10px 20px;
+        cursor: pointer;
+        background-color: #fff;
+    }
+    & svg {
+        width: 18px;
+        height: 18px;
+        fill: #fff;
+        margin-right: 10px;
+    }
+}

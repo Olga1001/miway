@@ -1,0 +1,14 @@
+
+
+@media only screen and (max-width: 1440px) {
+    .shop .item {
+        width: calc(33.33% - 10px);
+        margin-right: 15px;
+        &-link_img {
+            height: 16.1vw;
+        }
+        &:nth-child(3n+3) {
+            margin-right: 0;
+        }
+    }
+}

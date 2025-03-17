@@ -1,0 +1,30 @@
+@import "../../style/variables.scss";
+
+.search {
+    max-width: 500px;
+    width: 100%;
+    & input {
+        width: 100%;
+        padding-right: 62px;
+        padding: 10px 30px 10px 62px;
+        border: 1px solid rgba(25, 21, 20, 0.1);
+    }
+    &-dropdown {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 100%;
+        padding: $global-spacer;
+        border: 1px solid $grey;
+        border-radius: 4px;
+        background-color: #fff;
+        z-index: 5;
+        margin-top: 4px;
+        opacity: 0;
+        pointer-events: none;
+        &.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+    }
+}
